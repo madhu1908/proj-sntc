@@ -9,8 +9,8 @@ ARG BUILDER_ROOTFS_IMAGE=mendix/rootfs:bionic
 # Build stage
 FROM ${BUILDER_ROOTFS_IMAGE} AS builder
 
-# Build-time variables
-ARG BUILD_PATH=project
+# Build-time variablen
+ARG BUILD_PATH=SNTC-maim
 ARG DD_API_KEY
 # CF buildpack version
 ARG CF_BUILDPACK=v4.28.4
